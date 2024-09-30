@@ -6,21 +6,24 @@
       "cognitive": {
         "title": "Unidad 1: Cognitiva",
         "description": "Los ejercicios de práctica presentados en esta sección pretenden reforzar tus habilidades de razonamiento.",
-        "path": "/cognitive"
-      }
-    },
-    {
-      "mathematics": {
-        "title": "Unidad 2: Verbal",
-        "description": "Los ejercicios que encontrarás en este apartado, tienen como propósito ayudarte a recordar las reglas básicas de la escritura, lectura y buen uso de nuestro lenguaje.",
-        "path": "/verbal"
+        "path": "/cognitive",
+        "icon": "fa-solid fa-brain"
       }
     },
     {
       "verbal": {
+        "title": "Unidad 2: Verbal",
+        "description": "Los ejercicios que encontrarás en este apartado, tienen como propósito ayudarte a recordar las reglas básicas de la escritura, lectura y buen uso de nuestro lenguaje.",
+        "path": "/verbal",
+        "icon": "fa-solid fa-book"
+      }
+    },
+    {
+      "mathematics": {
         "title": "Unidad 3: Matemática",
-        "description": "Los ejercicios de esta área te permitirán practicar los contenidos de : aritmética, geometría, álgebra, probabilidad y estadística, que son temas que has estudiado en tus etapas académicas previas.",
-        "path": "/mathematics"
+        "description": "Los ejercicios de esta área te permitirán practicar los contenidos de: aritmética, geometría, álgebra, probabilidad y estadística, que son temas que has estudiado en tus etapas académicas previas.",
+        "path": "/mathematics",
+        "icon": "fa-solid fa-calculator"
       }
     }
   ],

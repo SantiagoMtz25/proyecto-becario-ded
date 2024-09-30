@@ -1,8 +1,9 @@
+import NavBar from "../components/NavBar";
 
 const MathematicsPage = () => {
   return (
     <>
-      <div>helo</div>
+      <NavBar title="Unidad 3: Matemática" />
     </>
   );
 }

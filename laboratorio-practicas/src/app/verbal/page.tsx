@@ -1,8 +1,9 @@
+import NavBar from "../components/NavBar"
 
 const VerbalPage = () => {
   return (
     <>
-      <div>helo</div>
+      <NavBar title="Unidad 2: Verbal" />
     </>
   );
 }

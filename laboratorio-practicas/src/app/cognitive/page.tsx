@@ -1,8 +1,9 @@
+import NavBar from "../components/NavBar";
 
 const CognitivePage = () => {
   return (
     <>
-      <div>helo</div>
+      <NavBar title="Unidad 1: Cognitiva" />
     </>
   );
 }

@@ -16,6 +16,16 @@ const config: Config = {
         kinda_orange: '#FF8431',
       },
     },
+    screens: {
+      'sm': "480px",
+      'md': "768px",
+      'lg': "1010px",
+      'xl': "1280px",
+      '2xl': "1536px"
+    },
+    fontFamily: {
+      sans: ["Open Sans", "sans-serif"],
+    },
   },
   plugins: [],
 };
