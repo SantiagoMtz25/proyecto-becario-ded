@@ -20,14 +20,14 @@ const NavCard: React.FC<NavCardProps> = ({
     <>
       <div className="
       hover:scale-105 transition-transform duration-500 ease-in-out rounded-2xl
-      w-[90%] md:w-80 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] p-9 space-y-3 relative overflow-hidden flex flex-col justify-between content-start
+      sm:w-[90%] lg:grow /* md:w-80 */ bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] p-9 space-y-3 relative overflow-hidden flex flex-col justify-between content-start
       ">
-        <div className={`w-24 h-24 rounded-full absolute -right-5 -top-7 ${num === 1 ? 'bg-kinda_orange' : num === 2 ? 'bg-kinda_yellow' : 'bg-light_green'}`}>
+        <div className={`w-24 h-24 rounded-full absolute -right-5 -top-7 ${num === 1 ? 'bg-light_green' : num === 2 ? 'bg-kinda_red' : 'bg-indigo_blue'}`}>
           <p className="absolute bottom-6 left-7 text-white text-2xl">{num}</p>
         </div>
         <div className="">
           <div className="fill-violet-500 w-12">
-            <FontAwesomeIcon icon={icon} className={`w-12 h-12 ${num === 1 ? 'text-kinda_orange' : num === 2 ? 'text-kinda_yellow' : 'text-light_green'}`}/>
+            <FontAwesomeIcon icon={icon} size='3x' className={`${num === 1 ? 'text-light_green': num === 2 ? 'text-kinda_red' : 'text-indigo_blue'}`}/>
           </div>
           <h1 className="font-bold text-xl pt-3">{title}</h1>
         </div>

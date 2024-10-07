@@ -1,19 +1,24 @@
 import type { Config } from "tailwindcss";
+const flowbite = require("flowbite-react/tailwind");
 
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    flowbite.content(),
   ],
   theme: {
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        light_green: '#8CC56C',
-        kinda_yellow: '#FF9900',
-        kinda_orange: '#FF8431',
+        light_green: '#95bb72',
+        indigo_blue: '#4e86c6',
+        kinda_red: '#e94e70',
+        tacao: "#f2a68c",
+        wheat: "#f4d5b8",
+        powder_blue: "#a8e4e6",
       },
     },
     screens: {
@@ -27,6 +32,9 @@ const config: Config = {
       sans: ["Open Sans", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [
+    flowbite.plugin(),
+  ],
 };
+
 export default config;

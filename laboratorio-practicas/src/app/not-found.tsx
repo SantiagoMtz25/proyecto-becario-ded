@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 const NotFound = () => {
-  const [backCounter, setBackCounter] = useState<number>(3);
+  const [backCounter, setBackCounter] = useState<number>(5);
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -1,14 +1,15 @@
 import React from "react";
+import Image from "next/image";
 
 interface NavBarProps {
-  title: string;
+  title?: string;
 }
 
 const NavBar: React.FC<NavBarProps> = ({ title }) => {
   return (
     <>
-      <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7eef4] px-10 py-3">
-        <div className="flex items-center gap-4 text-[#0d151c]">
+      <header className="flex flex-col md:flex-row items-center justify-between content-between whitespace-nowrap border-b border-solid border-b-[#abb0b5] px-5 py-3 self-center">
+        {/* <div className="flex items-center gap-4 text-[#0d151c]">
           <div className="size-4">
             <svg
               viewBox="0 0 48 48"
@@ -24,7 +25,19 @@ const NavBar: React.FC<NavBarProps> = ({ title }) => {
           <h2 className="text-[#0d151c] sm:text-3xl lg:text-3xl xl:text-4xl font-bold leading-tight tracking-[-0.015em]">
             {title}
           </h2>
-        </div>
+        </div> */}
+        <Image
+          src="/images/Recurso 3cva 3.png"
+          alt={"Centro Virtual de Aprendizaje"}
+          width={250}
+          height={50}
+        />
+        <Image
+          src="/images/Tec.png"
+          alt={"Tecnológico de Monterrey"}
+          width={250}
+          height={50}
+        />
         {/* <button
             className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#2094f3] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
           >

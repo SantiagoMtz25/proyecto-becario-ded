@@ -1,6 +1,18 @@
 {
-  "title": "Área de Práctica",
-  "description": "Bienvenido al Laboratorio de prácticas para el desarrollo de habilidades cognitivas, matemáticas y de razonamiento verbal. \n Este laboratorio es un espacio que te brindará la oportunidad de reforzar tus competencias cognitivas y tus habilidades de razonamiento matemático y verbal. \n La práctica de estos ejercicios pretende llevar al maestro a una reflexión sobre la importancia de formar niños y jóvenes más independientes en su aprendizaje y la necesidad de diseñar estrategias que lleven a los alumnos a estimular y desarrollar cada una de sus habilidades.",
+  "title": [
+    "Laboratorio de Prácticas", 
+    "Capacítate y Trabaja", 
+    "Inicia y Mejora Tu Negocio", 
+    "Participa en Acción Climática", 
+    "Cursos en Línea"
+  ],
+  "description": [
+    "Bienvenido al Laboratorio de prácticas para el desarrollo de habilidades cognitivas, matemáticas y de razonamiento verbal. \n Este laboratorio es un espacio que te brindará la oportunidad de reforzar tus competencias cognitivas y tus habilidades de razonamiento matemático y verbal. \n La práctica de estos ejercicios pretende llevar al maestro a una reflexión sobre la importancia de formar niños y jóvenes más independientes en su aprendizaje y la necesidad de diseñar estrategias que lleven a los alumnos a estimular y desarrollar cada una de sus habilidades.",
+    "Toma cursos en línea de diversos temas y adquiere nuevas habilidades para el trabajo. \n Encuentra cursos gratuitos en línea sobre temas como la programación, tecnología informativa, desarrollo personal, educación financiera, idiomas, emprendimiento, entre muchos otros. \n Aprende a tu propio ritmo y obtén una certificación de finalización para destacar en tu currículum o perfil profesional.",
+    "Aprende como iniciar y mejorar tu negocio. \n Encuentra recursos para ayudarte a iniciar y mejorar tu negocio. \n Explora temas como la creación de un plan de negocios, la gestión de las finanzas y la comercialización de tu producto o servicio.",
+    "Conoce e involúcrate en acciones para combatir el cambio climático. \n Descubre cómo puedes participar en acciones para combatir el cambio climático y proteger el medio ambiente. \n Aprende sobre la importancia de la sostenibilidad y cómo puedes contribuir a un futuro más sostenible.",
+    "Toma cursos en línea y aprende nuevas habilidades para el trabajo. \n Aprende a tu propio ritmo con cursos gratuitos en línea. \n Explora las habilidades que te interesan y obtén una certificación de finalización para destacar en tu currículum o perfil profesional."
+  ],
   "courses": [
     {
       "cognitive": {
@@ -26,6 +38,5 @@
         "icon": "fa-solid fa-calculator"
       }
     }
-  ],
-  "footer": "DR© Instituto Tecnológico y de Estudios Superiores de Monterrey, Universidad Virtual | México, 2024"
+  ]
 }
