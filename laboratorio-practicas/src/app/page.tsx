@@ -4,7 +4,7 @@ import NavCard from "./components/NavCard";
 import homedata from "../../public/homedata.json";
 import NavBar from "./components/NavBar";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import FooterComponent from "./components/Footer";
 import LandingCarousel from "./components/LandingCarousel";
 import {
@@ -37,13 +37,13 @@ export default function Home() {
 
   const title: string[] = homedata.title;
   const description: string[] = homedata.description;
+  const imageUrls: string[] = homedata.imageURL;
 
   return (
     <div className="flex flex-col justify-center">
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
       </div>
-      <div className="w-full h-1 -mt-1 mb-3 bg-slate-400"></div>
       <div className="lg:px-3 flex flex-1 justify-center">
         <div className="layout-content-container lg:w-[90%] max-w-[1120px] flex flex-col flex-1">
           {/* <div className="@container">
@@ -97,8 +97,9 @@ export default function Home() {
             setShowFullDescription={setShowFullDescription}
             title={title}
             description={description}
+            imageURL={imageUrls}
           />
-          <div className="flex flex-row flex-wrap gap-3 justify-center lg:justify-between pb-3 py-5">
+          <div className="flex flex-row flex-wrap gap-3 justify-center px-3 lg:px-0 lg:justify-between pb-3 py-5">
             {courses.map((course, index) => (
               <NavCard
                 num={index + 1}

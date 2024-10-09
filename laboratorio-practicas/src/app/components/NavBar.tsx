@@ -8,7 +8,7 @@ interface NavBarProps {
 const NavBar: React.FC<NavBarProps> = ({ title }) => {
   return (
     <>
-      <header className="flex flex-col md:flex-row items-center justify-between content-between whitespace-nowrap border-b border-solid border-b-[#abb0b5] px-5 py-3 self-center">
+      <header className="flex flex-col md:flex-row items-center justify-between content-between whitespace-nowrap  border-solid border-b-[#abb0b5] px-5 py-3 self-center">
         {/* <div className="flex items-center gap-4 text-[#0d151c]">
           <div className="size-4">
             <svg
