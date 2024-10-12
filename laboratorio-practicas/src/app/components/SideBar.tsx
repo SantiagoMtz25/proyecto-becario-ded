@@ -1,9 +1,10 @@
-"use client";
+"use client"; // Ensure this is added at the top of the file for client-side interactivity
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import GoBackBtn from "./GoBackBtn";
+import Link from "next/link";
 
 interface SideBarProps {
   elements: string[];
@@ -12,9 +13,13 @@ interface SideBarProps {
 const SideBar: React.FC<SideBarProps> = ({ elements }) => {
   const [selected, setSelected] = useState<number | null>(null);
 
+  const handleSelected = (index: number) => {
+    setSelected(index);
+  };
+
   return (
     <>
-      <div className="hidden md:block layout-content-container flex flex-col w-80">
+      <div className="hidden md:block layout-content-container flex flex-col min-w-80">
         <div className="flex h-full flex-col justify-between bg-slate-50 p-4 rounded-2xl">
           <div className="flex flex-col gap-4">
             <GoBackBtn />
@@ -22,10 +27,10 @@ const SideBar: React.FC<SideBarProps> = ({ elements }) => {
               {elements.map((element, index) => (
                 <div
                   key={index}
-                  className={`flex items-center gap-3 px-3 py-2 rounded-xl cursor-pointer ${
-                    selected === index ? "bg-blue-300" : "bg-[#e7eef4]"
+                  className={`flex items-center gap-3 px-3 py-2 rounded-xl cursor-pointer hover:scale-105 duration-200 ${
+                    selected === index ? "bg-slate-300" : "bg-[#e7eef4]"
                   }`}
-                  onClick={() => setSelected(index)}
+                  onClick={() => handleSelected(index)} 
                 >
                   <div
                     className="text-[#0d151c]"
@@ -35,9 +40,11 @@ const SideBar: React.FC<SideBarProps> = ({ elements }) => {
                   >
                     <FontAwesomeIcon icon={faMinus} />
                   </div>
-                  <p className="text-[#0d151c] text-base font-medium leading-normal">
-                    {element}
-                  </p>
+                  <Link className="w-full" href={`/cognitive/${element}`} key={index}>
+                    <p className="w-full text-[#0d151c] text-base font-medium leading-normal">
+                      {element}
+                    </p>
+                  </Link>
                 </div>
               ))}
             </div>

@@ -44,7 +44,7 @@ export default function Home() {
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
       </div>
-      <div className="lg:px-3 flex flex-1 justify-center">
+      <div className="lg:px-3 flex flex-1 justify-center mb-6">
         <div className="layout-content-container lg:w-[90%] max-w-[1120px] flex flex-col flex-1">
           {/* <div className="@container">
             <div className="@[480px]:p-4">

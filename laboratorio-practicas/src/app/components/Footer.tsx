@@ -12,7 +12,7 @@ const FooterComponent: React.FC = () => {
           <span className="border-r-2 border-gray-400"></span>
           <a target="_blank" href="https://tec.mx/es/aviso-privacidad-centro-virtual-aprendizaje">Aviso de Privacidad</a>
           <span className="border-r-2 border-gray-400"></span>
-          <a target="_blank" href="">Créditos</a>
+          <a target="_blank" href="/credits">Créditos</a>
         </div>
       </footer>
     </>

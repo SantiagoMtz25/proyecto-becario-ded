@@ -16,7 +16,7 @@ const LandingCarousel: React.FC<LandingCarouselProps> = ({
   return (
     <div
       id="default-carousel"
-      className="relative w-full"
+      className="relative w-full shadow-xl rounded-2xl overflow-hidden"
       data-carousel="slide"
     >
       <div className="relative h-56 overflow-hidden rounded-2xl md:h-96">

@@ -20,7 +20,7 @@ const MainSubjects: React.FC<MainSubjectsProps> = ({children, title, description
           ))}
         </p>
       </div>
-      <div className="grid grid-cols-2 grid-rows-5 lg:grid-cols-3 lg:grid-rows-3 gap-4">
+      <div className="grid grid-cols-2 grid-rows-5 lg:grid-cols-3 lg:grid-rows-3 gap-4 rounded-xl">
         {children}
       </div>
     </div>
