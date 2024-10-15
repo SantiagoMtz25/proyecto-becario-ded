@@ -17,6 +17,7 @@ const CognitivePage = () => {
             key={index}
             title={subject.title}
             description={subject.description}
+            colorToRender={cognitive.color}
           />
         ))}
       </MainSubjects>

@@ -1,0 +1,56 @@
+{
+  "title": "Matemáticas",
+  "description": "Los ejercicios de esta área te permitirán practicar los contenidos de : aritmética, geometría, álgebra, probabilidad y estadística, que son temas que has estudiado en tus etapas académicas previas.",
+  "topics": [
+    {
+      "title": "Ecuaciones",
+      "description": "Temas relacionados con ecuaciones",
+      "points": [
+        {"title": "Construcción de expresiones algebraicas", "description": ""},
+        {"title": "Ecuaciones Lineales", "description": ""},
+        {"title": "Evaluación de funciones", "description": ""},
+        {"title": "Evaluar una ecuación con 2 variables", "description": ""},
+        {"title": "Evaluar una expresión algebraica", "description": ""},
+        {"title": "Sistemas de ecuaciones", "description": ""}
+      ]
+    },
+    {
+      "title": "Fracciones",
+      "description": "Temas relacionados con fracciones",
+      "points": [
+        {"title": "Cuadrado de una fracción", "description": ""},
+        {"title": "Fracciones", "description": ""},
+        {"title": "Máximo común divisor", "description": ""},
+        {"title": "Operaciones con fracciones", "description": ""}
+      ]
+    },
+    {
+      "title": "Geometría",
+      "description": "Temas relacionados con geometría",
+      "points": [
+        {"title": "Ángulo perigonal o perigono", "description": ""},
+        {"title": "Ángulo perigonal o perigono", "description": ""},
+        {"title": "Áreas de figuras planas", "description": ""},
+        {"title": "Distancia entre dos planos", "description": ""},
+        {"title": "Ejercicios de áreas y comparaciones", "description": ""},
+        {"title": "Perímetro", "description": ""},
+        {"title": "Perímetros, áreas y ángulos", "description": ""},
+        {"title": "Plano cartesiano", "description": ""},
+        {"title": "Semejanza y congruencia", "description": ""},
+        {"title": "Triángulos", "description": ""},
+        {"title": "Volúmenes", "description": ""}
+      ]
+    },
+    {
+      "title": "Probabilidad y Estadística",
+      "description": "Temas relacionados con probabilidad y estadística",
+      "points": [
+        {"title": "Datos graficados", "description": ""},
+        {"title": "Probabilidad 1", "description": ""},
+        {"title": "Probabilidad 2", "description": ""}
+      ]
+    }
+  ],
+  "points": [],
+  "color": "blue"
+}

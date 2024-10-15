@@ -1,5 +1,6 @@
 {
   "title": "Unidad 1: Cognitiva",
   "description": "Los ejercicios de práctica presentados en esta sección pretenden reforzar tus habilidades de reconocimiento de las relaciones que guardan entre sí:",
-  "points": ["a) los elementos de un grupo o conjunto de elementos", "b) las palabras usadas en una frase u oración y ", "c) los segmentos de información proporcionados en base a un contexto determinado."]
+  "points": ["a) los elementos de un grupo o conjunto de elementos", "b) las palabras usadas en una frase u oración y ", "c) los segmentos de información proporcionados en base a un contexto determinado."],
+  "color": "green"
 }

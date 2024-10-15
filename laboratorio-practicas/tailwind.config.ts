@@ -19,6 +19,7 @@ const config: Config = {
         tacao: "#f2a68c",
         wheat: "#f4d5b8",
         powder_blue: "#a8e4e6",
+        green_1: '#f4fceb',
       },
     },
     screens: {

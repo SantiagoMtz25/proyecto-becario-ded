@@ -1,10 +1,23 @@
 "use client";
 
-/* interface GoBackBtnProps {
-  color?: string;
-} */
+import { usePathname } from "next/navigation";
 
-const GoBackBtn = () => {
+interface GoBackBtnProps {
+  color?: string;
+}
+
+const GoBackBtn: React.FC<GoBackBtnProps> = () => {
+  const pathname = usePathname();
+
+  // Determine the background color based on the pathname
+  const backgroundColor = pathname.includes('cognitive')
+    ? 'hover:bg-[#bde2b9]'
+    : pathname.includes('verbal')
+    ? 'hover:bg-[#ff7e82]'
+    : pathname.includes('math')
+    ? 'hover:bg-[#afdceb]'
+    : 'hover:bg-gray-500';
+
   return (
     /* From Uiverse.io by AKAspidey01 */
     <button
@@ -12,7 +25,9 @@ const GoBackBtn = () => {
       type="button"
       onClick={() => window.location.href = "/"}
     >
-      <div className={"bg-slate-300 rounded-xl h-12 w-1/4 flex items-center justify-center absolute top-[4px] group-hover:w-full z-10 duration-500"}>
+      <div
+        className={`bg-slate-300 ${backgroundColor} rounded-xl h-12 w-1/4 flex items-center justify-center absolute top-[4px] group-hover:w-full z-10 duration-500`}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1024 1024"
