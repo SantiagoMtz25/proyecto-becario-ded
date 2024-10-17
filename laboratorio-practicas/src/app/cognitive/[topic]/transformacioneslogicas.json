@@ -1,12 +1,15 @@
 {
-  "topic": "Analogía",
-  "topicDescription": "La analogía expresa una relación de semejanza entre seres o cosas diferentes. Generalmente, aunque hay excepciones, una analogía es bidireccional, es decir, la relación ocurre tanto de izquierda a derecha como de derecha a izquierda. Para encontrar la respuesta que completa una analogía se busca que se cumplan tres clases de relación: 1º Relación de contenido, 2º Relación de orden, 3º Relación de forma gramatical.",
-  "example": "Instrucciones: en el siguiente ejemplo se presenta una relación entre los términos Gato y felino. Después se presenta un término que se encuentra subrayado. Selecciona la opción que se relaciona con el término subrayado de la misma forma en que se relacionan los dos primeros términos.",
-  "exampleQuestion": "Gato es a felino como cero es a:",
+  "topic": "Transformaciones Lógicas",
+  "topicDescription": "Las transformaciones lógicas, establecen una relación de orden entre objetos, distancias, números, letras, etc.",
+  "example": "Instrucciones: en los ejercicios relacionados con este tema, la información hace uso continuo de palabras tales como: \"más cerca\", \"más lejos\", \"antes\", \"después\", etc",
+  "exampleQuestion2": "Es conveniente trabajar sólo con una relación cada vez y al final reunirlas todas para encontrar la respuesta.",
+  "exampleQuestion": "1. Lucía, Bety, Eduardo, Rubén y Saúl asisten al mismo gimnasio. Lucía está más cerca del gimnasio que Saúl quien para ir ahí, camina menos que Bety pero más que Rubén. Por su parte Eduardo, a pesar de estar más cerca que Lucía está más lejos que Rubén. ¿Cuál es el orden de menor a mayor distancia casa-gimnasio?",
   "exampleOptions": [
-    "a) diez",
-    "b) perro",
-    "c) dígito",
-    "d) nueve"
-  ]
+    "a) Rubén, Bety, Saúl, Eduardo, Lucía ",
+    "b) Rubén, Eduardo, Lucía, Saúl, Bety",
+    "c) Rubén, Lucía, Eduardo, Saúl, Bety",
+    "d) Rubén, Saúl, Lucía, Eduardo, Rubén"
+  ],
+  "answer": 1,
+  "imageURL": ""
 }

@@ -1,12 +1,15 @@
 {
-  "topic": "Analogía",
-  "topicDescription": "La analogía expresa una relación de semejanza entre seres o cosas diferentes. Generalmente, aunque hay excepciones, una analogía es bidireccional, es decir, la relación ocurre tanto de izquierda a derecha como de derecha a izquierda. Para encontrar la respuesta que completa una analogía se busca que se cumplan tres clases de relación: 1º Relación de contenido, 2º Relación de orden, 3º Relación de forma gramatical.",
-  "example": "Instrucciones: en el siguiente ejemplo se presenta una relación entre los términos Gato y felino. Después se presenta un término que se encuentra subrayado. Selecciona la opción que se relaciona con el término subrayado de la misma forma en que se relacionan los dos primeros términos.",
-  "exampleQuestion": "Gato es a felino como cero es a:",
+  "topic": "Diagramas de Venn 1",
+  "topicDescription": "Para estos ejercicios es importante observar los diferentes sectores que aparecen y ubicar en ellos a las personas o cosas de los que trata cada una de las preguntas.",
+  "example": "Instrucciones: se presentan tres círculos identificados con las letras D, G y I., con estos círculos se forman siete sectores que se identifican con los números del 1 al 7. En el diagrama se presentan varias preguntas en los que tendrás que identificar la sección apropiada.",
+  "exampleQuestion2": "1. En un edificio hay varios centros que imparten tres diferentes cursos extracurriculares, como son: Danza, Gimnasia e Idiomas. Un grupo de amigos se puso de acuerdo este semestre para tomar uno o varios de esos cursos y la distribución quedo como sigue:",
+  "exampleQuestion": "¿ En qué sector se ubica o ubican las actividades de Rolando ?",
   "exampleOptions": [
-    "a) diez",
-    "b) perro",
-    "c) dígito",
-    "d) nueve"
-  ]
+    "a) 4",
+    "b) 3",
+    "c) 2",
+    "d) 1"
+  ],
+  "answer": 3,
+  "imageURL": "/images/diag1_ej.gif"
 }

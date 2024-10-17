@@ -1,12 +1,15 @@
 {
-  "topic": "Analogía",
-  "topicDescription": "La analogía expresa una relación de semejanza entre seres o cosas diferentes. Generalmente, aunque hay excepciones, una analogía es bidireccional, es decir, la relación ocurre tanto de izquierda a derecha como de derecha a izquierda. Para encontrar la respuesta que completa una analogía se busca que se cumplan tres clases de relación: 1º Relación de contenido, 2º Relación de orden, 3º Relación de forma gramatical.",
-  "example": "Instrucciones: en el siguiente ejemplo se presenta una relación entre los términos Gato y felino. Después se presenta un término que se encuentra subrayado. Selecciona la opción que se relaciona con el término subrayado de la misma forma en que se relacionan los dos primeros términos.",
-  "exampleQuestion": "Gato es a felino como cero es a:",
+  "topic": "Razonamiento Práctico",
+  "topicDescription": "En los siguientes ejercicios se describen situaciones que te conducen a suponer la consecuencia que tendrá algún evento y se te proporcionan los posibles resultados de tu hipótesis.",
+  "example": "Instrucciones: selecciona la conclusión que concuerda con la información proporcionada.",
+  "exampleQuestion2": "1. Para el baile de graduación, Cecilia recibió varias invitaciones: Raúl la invitó a ir a cenar a Vips y después a ir a la disco de moda. Jorge le propuso ir a cenar a casa de sus padres y después ir a casa de Sara, donde ésta y Rebeca pasarían un rato con varios amigos, bailando y platicando; pero si ella lo prefería irían a Chilis después de la cena, a platicar con varios compañeros. Por su parte Gabriel, le pidió que lo acompañara a cenar a Chilis donde se iban a encontrar otros amigos a departir después de la cena. Los papás de Cecilia, que llevan una muy buena amistad con los papás de Javier de quien tienen, además, la esperanza de que éste logre conquistarla, le propusieron ir a cenar los seis y posteriormente ir al teatro. Fernando otro de sus compañeros invitó a Cecy a cenar al Fiesta Americana y después ir a bailar un rato a casa de Sara. Cecilia se sintió abrumada por tantas atenciones, pero ella decidió pasar todo el tiempo con el chico que le gusta y pidió disculpas a los demás. Ella no cenó en ningún restaurante y después de la cena ella y su acompañante departieron con Gabriel y varios amigos en Chilis.",
+  "exampleQuestion": "¿Quién le gusta a Cecilia?",
   "exampleOptions": [
-    "a) diez",
-    "b) perro",
-    "c) dígito",
-    "d) nueve"
-  ]
+    "a) Gabriel",
+    "b) Raúl",
+    "c) Jorge",
+    "d) Fernando"
+  ],
+  "answer": 2,
+  "imageURL": ""
 }

@@ -1,12 +1,15 @@
 {
-  "topic": "Analogía",
-  "topicDescription": "La analogía expresa una relación de semejanza entre seres o cosas diferentes. Generalmente, aunque hay excepciones, una analogía es bidireccional, es decir, la relación ocurre tanto de izquierda a derecha como de derecha a izquierda. Para encontrar la respuesta que completa una analogía se busca que se cumplan tres clases de relación: 1º Relación de contenido, 2º Relación de orden, 3º Relación de forma gramatical.",
-  "example": "Instrucciones: en el siguiente ejemplo se presenta una relación entre los términos Gato y felino. Después se presenta un término que se encuentra subrayado. Selecciona la opción que se relaciona con el término subrayado de la misma forma en que se relacionan los dos primeros términos.",
-  "exampleQuestion": "Gato es a felino como cero es a:",
+  "topic": "Significado de Metáforas",
+  "topicDescription": "El sentido figurado de la metáfora permite embellecer el lenguaje.",
+  "example": "Instrucciones: en estos ejercicios se pretende que encuentres el significado común de las metáforas proporcionadas.",
+  "exampleQuestion2": "",
+  "exampleQuestion": "1. Las lágrimas de la noche sobre el colorido pétalo",
   "exampleOptions": [
-    "a) diez",
-    "b) perro",
-    "c) dígito",
-    "d) nueve"
-  ]
+    "a) lluvia",
+    "b) gotas de rocío",
+    "c) llanto de la noche",
+    "d) gotas de lluvia"
+  ],
+  "answer": 1,
+  "imageURL": ""
 }

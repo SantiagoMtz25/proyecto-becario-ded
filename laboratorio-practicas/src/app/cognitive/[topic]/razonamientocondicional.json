@@ -1,12 +1,15 @@
 {
-  "topic": "Analogía",
-  "topicDescription": "La analogía expresa una relación de semejanza entre seres o cosas diferentes. Generalmente, aunque hay excepciones, una analogía es bidireccional, es decir, la relación ocurre tanto de izquierda a derecha como de derecha a izquierda. Para encontrar la respuesta que completa una analogía se busca que se cumplan tres clases de relación: 1º Relación de contenido, 2º Relación de orden, 3º Relación de forma gramatical.",
-  "example": "Instrucciones: en el siguiente ejemplo se presenta una relación entre los términos Gato y felino. Después se presenta un término que se encuentra subrayado. Selecciona la opción que se relaciona con el término subrayado de la misma forma en que se relacionan los dos primeros términos.",
-  "exampleQuestion": "Gato es a felino como cero es a:",
+  "topic": "Razonamiento Condicional",
+  "topicDescription": "El razonamiento condicional es parte importante de la lógica natural que nos permite discurrir con acierto sin recurrir al conocimiento científico.",
+  "example": "Instrucciones: en estos ejercicios se proporcionan una o más premisas (afirmaciones sustentadas empíricamente) que conducen a una conclusión. Debes seleccionar la opción que representa la conclusión del ejemplo:",
+  "exampleQuestion2": "",
+  "exampleQuestion": "1. El inciso que tiene la conclusión de las siguientes premisas es: Todos los niños inventan juegos. Todos los que inventan juegos son creativos. Por lo tanto,",
   "exampleOptions": [
-    "a) diez",
-    "b) perro",
-    "c) dígito",
-    "d) nueve"
-  ]
+    "a) Todos los niños son jugadores",
+    "b) Algunos niños son creativos",
+    "c) Ningun niño es creativo",
+    "d) Todos los niños son creativos"
+  ],
+  "answer": 3,
+  "imageURL": ""
 }
